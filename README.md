@@ -33,17 +33,18 @@ By using three variable K-Map, we can get the simplified expression for next sta
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
 
 **Procedure**
-
+```
 Step 1: Open Quartus II in your laptop.
 Step 2: Write code to implement SR flipflop using verilog and validating their functionality using their functional tables.
 Step 3: Run compilation to check for errors.
 Step 4: Open waveform output and load input values.
 Step 5: Run simulation to get the output.
 Step 6: Open in RTL viewers to get RTL diagram output.
-
+```
 **PROGRAM**
 
- Developed by: Subash M //
+ Developed by: Subash M 
+ 
  RegisterNumber:212223040210
 ```
  module sr_flipflop(q, q_bar, s, r, clk, reset);
