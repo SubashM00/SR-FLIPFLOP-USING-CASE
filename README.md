@@ -45,7 +45,7 @@ Step 6: Open in RTL viewers to get RTL diagram output.
 
  Developed by: Subash M //
  RegisterNumber:212223040210
-
+```
  module sr_flipflop(q, q_bar, s, r, clk, reset);
   input s, r, clk, reset;
   output reg q;
@@ -66,7 +66,7 @@ Step 6: Open in RTL viewers to get RTL diagram output.
 
   assign q_bar = ~q;
 endmodule
-
+```
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/SubashM00/SR-FLIPFLOP-USING-CASE/assets/144870586/5a201d98-8f09-4de8-b7b2-7aa8fa17dfa7)
 
